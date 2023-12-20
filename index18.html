@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculator</title>
+
+    <style type="text/css">
+        .tombol {
+            background-color: violet;
+        }
+
+        .table {
+            background-color: pink;
+            margin: 50px;
+            padding: 50px;
+        }
+        caption{
+            background-color: pink;
+            padding: 10px;
+        }
+        form{
+            background-color: pink;
+            display: flex;
+            width: 300px;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <form name="calculator">
+        <table style="background-color: pink;">
+            <caption>Kalkulator Sederhana</caption>
+            <tr>
+                <td>Bilangan 1</td>
+                <td>:</td>
+                <td><input type="number" name="angka1"></td>
+            </tr>
+            <tr>
+                <td>Bilangan 2</td>
+                <td>:</td>
+                <td><input type="number" name="angka2"></td>
+            </tr>
+            <tr>
+                <td colspan="3" align="center">
+                    <input class="tombol" type="button" value="   +   " name="tambah">
+                    <input class="tombol" type="button" value="   -   " name="kurang">
+                    <input class="tombol" type="button" value="   /   " name="bagi">
+                    <input class="tombol" type="button" value="   *   " name="kali">
+                    <input class="tombol" type="button" value="   c   " name="hapus">
+
+                    </div>
+                    <div class="footer">
+                        <br>Copyright&copy;2023</br>
+                        <b>issa</b>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <script src="java.js"></script>
+
+</body>
+
+</html>
